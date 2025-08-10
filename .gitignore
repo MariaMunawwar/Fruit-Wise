@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Outputs / large artifacts
+output/
+logs/
+*.log
+*.tfevents*
+
+# Weights & checkpoints
+models/*.pth
+models/*.pt
+*.pth
+*.pt
+
+# Datasets
+data/
+dataset/
+kaggle/
+*.zip
+*.tar.gz
+
+# macOS
+.DS_Store
+
